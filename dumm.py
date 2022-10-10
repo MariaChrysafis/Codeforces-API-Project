@@ -7,8 +7,6 @@ response = urlopen(url)
 data_json = json.loads(response.read())
 results = data_json['result']
 problems = results['problems']
-# print(problems)
-# print(type(problems))
 df = pd.DataFrame(problems)
 df.to_csv('problems.csv')
 url = "https://codeforces.com/api/user.ratedList?activeOnly=true&includeRetired=false"
@@ -17,3 +15,7 @@ data_json = json.loads(response.read())
 results = data_json['result']
 df = pd.DataFrame(results)
 df.to_csv('users.csv')
+
+for index, row in df.iterrows() :
+    if row['rating'] >= 3000 :
+        print(row)
