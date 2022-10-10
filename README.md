@@ -1,2 +1,3 @@
 # Codeforces-API-Project
-Making sense of Codeforces API
+
+Scraping Codeforces API data and writing them to a .csv file
