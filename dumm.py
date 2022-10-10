@@ -1,11 +1,10 @@
 import json
 import csv
-# import pandas as pd
+import requests
+from urllib.request import urlopen
+import statistics
+import bs4
 import pandas as pd
-# df = pd.read_json (r'/Users/maria/PycharmProjects/active1retired0.json')
-# df.to_csv (r'/Users/maria/PycharmProjects/active1retired0.csv', index = None, sep='|', columns=['status', 'result'])
-filename = r'/Users/maria/PycharmProjects/active1retired0.csv'
-with open(filename, newline = '') as f :
-    reader = csv.reader(f)
-    for row in reader :
-        print(row)
+url = "https://codeforces.com/api/problemset.problems?tags=implementation"
+response = urlopen(url)
+data_json = json.loads(response.read())
