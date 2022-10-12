@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from urllib.request import urlretrieve
 import urllib.request
+from scipy.stats import lognorm
 from urllib.parse import quote
 import urllib
 import requests
@@ -23,6 +24,7 @@ def get_data (url, file):
 
 df_codeforces_round_list = get_data("https://codeforces.com/api/contest.list?gym=false", 'rounds.csv')[1]
 tot = []
+c = 0
 for index, rows in df_codeforces_round_list.iterrows() :
     if rows['relativeTimeSeconds'] < 0 :
         continue
@@ -37,5 +39,12 @@ for index, rows in df_codeforces_round_list.iterrows() :
         tot.append(rows1['newRating'] - rows1['oldRating'])
 plt.hist(tot, range = [min(tot) - 1, max(tot) + 1], bins = 1000)
 plt.show()
-print(tot)
-    # print(rows)
+plt.hist(tot, range = [min(tot) - 1, max(tot) + 1], bins = 1000, log = True)
+plt.show()
+# print(tot)
+print("MEAN", statistics.mean(tot))
+print("STDEV", statistics.stdev(tot))
+print("MEDIAN", statistics.median(tot))
+print("VARIANCE", statistics.variance(tot))
+print("MODE", statistics.multimode(tot))
+# statistics.NormalDist
