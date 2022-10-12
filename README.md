@@ -1,3 +1,3 @@
 # Codeforces-API-Project
 
-Scraping Codeforces API data and writing them to a .csv file
+Scraping Codeforces API data.
