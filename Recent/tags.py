@@ -3,7 +3,7 @@ import os
 import glob
 import json
 import csv
-path = "/Users/maria/PycharmProjects/pythonProject5/data/problems.csv" # change path accordingly
+path = "/Users/maria/PycharmProjects/pythonProject5/data/problems.csv" # problems.csv is a file that contains list of problems. Change directory appropriately.
 print(path)
 dictionary = dict()
 ans = 0
