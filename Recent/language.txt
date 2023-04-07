@@ -1,0 +1,70 @@
+GNU C++17 10320456
+GNU C++20 (64) 4381239
+GNU C11 357567
+GNU C++17 (64) 1578355
+PyPy 3-64 326510
+Clang++20 Diagnostics 15980
+Clang++17 Diagnostics 23754
+Text 10541
+Python 3 398973
+PyPy 3 225262
+GNU C++14 3795228
+Kotlin 1.4 25305
+JavaScript 2428
+GNU C++11 827972
+Mono C# 11793
+C# 8 13310
+MS C++ 2017 149242
+Java 11 241300
+Io 1165
+FALSE 224
+Python 2 15168
+UnknownX 653
+PHP 2333
+Java 8 278541
+PascalABC.NET 2150
+FPC 17628
+GNU C++ 201511
+Factor 414
+GNU C 18420
+Java 17 79380
+MS C++ 42127
+Ruby 1300
+PyPy 2 12461
+Befunge 992
+GNU C++17 Diagnostics 755
+Go 10785
+GNU C++0x 19583
+Ruby 3 908
+Kotlin 1.6 3012
+JSON 974
+Picat 249
+C# 10 8105
+Kotlin 1.7 1757
+Pike 510
+D 4962
+Secret_171 96
+Mysterious Language 517
+Perl 4919
+Q# 6534
+Delphi 17689
+Secret 2021 836
+Roco 540
+Node.js 4330
+Java 7 7126
+J 204
+Tcl 487
+Rust 2021 10796
+Haskell 3401
+Scala 627
+Kotlin 1.5 2232
+MS C# 3595
+Ocaml 206
+Ada 96
+Python 3 ZIP + libs 864
+Python 3 + libs 596
+Java 6 9054
+Rust 8323
+GNU C++11 ZIP 618
+Cobol 135
+Java 8 ZIP 1
